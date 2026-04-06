@@ -67,10 +67,10 @@ order_item.order_id > order.order_id
 
 order_item.product_id > product.product_id
 
-thrifted_product.product_id > product.product_id
+THRIFTED.product_id > product.product_id
 
-handmade_product.product_id > product.product_id
+HANDMADE_PRODUCT.product_id > product.product_id
 
 payment.order_id > order.order_id
 
-shipping.order_id > order.order_id
+SHIPPING.order_id > order.order_id
